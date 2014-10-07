@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Share Playlists</title>
+        <script src = "jquery-1.9.0.min.js"></script>
+        <script src = "./index.js"></script>
+	</head>
+	<body>
+        <h2 id="title">Share Your Playlists</h2>
+        <div>Enter a name for the playlist.  Separate song names with commas</div>
+        <div style="margin-bottom: 20px; margin-top: 20px;">
+            Name: <input type="text" id="playlist-name">
+            Songs: <input type="text" id="playlist-input" style="width: 300px;">
+            <button type="submit" id="submit-playlist">Create Playlist</button>
+        </div>
+        <div id="playlists">
+        </div>
+	</body>
+</html>
